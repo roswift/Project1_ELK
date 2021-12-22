@@ -138,8 +138,8 @@ The playbook implements the following tasks:
          name: docker
          enabled: yes
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-(Images/DVWA_Deployment.png)
-(Images/ELK_Deployment.png)
+* [DVWA Deployment](Images/DVWA_Deployment.png)
+* [ELK Deployment](Images/ELK_Deployment.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:

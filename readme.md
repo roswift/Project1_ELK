@@ -28,9 +28,9 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
 * What aspect of security do load balancers protect? What is the advantage of a jump box?
-	+ ** Load balancers will help to restrict network traffic in a way that doesn't hinder regular use, 
+	+** Load balancers will help to restrict network traffic in a way that doesn't hinder regular use, 
 	   but protects against DDos attacks and more.** 
-	+ ** Jump Box's act as an initializing box, or a middle man. This helps reduce certain risks like an abundance of public IP's. 
+	+** Jump Box's act as an initializing box, or a middle man. This helps reduce certain risks like an abundance of public IP's. 
            Additionally they also pose as a single entry point into the entire network, should it be compromised.**	
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the Network and system logs.

@@ -8,10 +8,10 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 * [Ansible RedTeam Playbook](Ansible/redteamCFG.yml)
 * [ELK InitializationPlaybook](Ansible/elk-playbook.yml)
-* [Filebeat Configuration](./filebeat-config.yml)
-* [Filebeat Playbook](./filebeat-playbook.yml)
-* [Metricbeat Configuration](./metricbeat-config.yml)
-* [Metricbeat Playbook](./metricbeat-playbook.yml)
+* [Filebeat Configuration](Ansible/filebeat-config.yml)
+* [Filebeat Playbook](Ansible/filebeat-playbook.yml)
+* [Metricbeat Configuration](Ansible/metricbeat-config.yml)
+* [Metricbeat Playbook](Ansible/metricbeat-playbook.yml)
 
 This document contains the following details:
 - Description of the Topology
@@ -169,9 +169,9 @@ SSH into the control node and follow the steps below:
 
 Answer the following questions to fill in the blanks:_
 - Which file is the playbook? Where do you copy it?
-	- For Ansible create [Ansible Playbook](./elk-playbook.yml)
-	- For Filebeat create [Filebeat Playbook](./filebeat-playbook.yml)
-	- For Metricbeat create [Metricbeat Playbook](./metricbeat-playbook.yml)
+	- For Ansible create [Ansible Playbook](Ansible/elk-playbook.yml)
+	- For Filebeat create [Filebeat Playbook](Ansible/filebeat-playbook.yml)
+	- For Metricbeat create [Metricbeat Playbook](Ansible/metricbeat-playbook.yml)
 	- Copy the file here: /etc/ansible/
 	
 - Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_

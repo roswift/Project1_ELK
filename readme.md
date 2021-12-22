@@ -41,7 +41,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 	+ Metricbeat outputs various metrics and statistics from the operating system and services running on a server. 
 
 The configuration details of each machine may be found below.
-Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
+Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table.
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|-------------------------|--------|
@@ -152,7 +152,7 @@ We have installed the following Beats on these machines:
 	- Filebeat & Metricbeat
 	
 These Beats allow us to collect the following information from each machine:
-- In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
+- In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc.
 	- Filebeat is a lightweight shipper for forwarding and centralizing log data. Installed as an agent on your servers, Filebeat monitors the log files or locations that you specify, 
 	  collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
 	- Metricbeat is a lightweight shipper that you can install on your servers to periodically collect metrics from the operating system and from services running on the server. 
@@ -167,7 +167,7 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to Kibana:(port) to check that the installation worked as expected. 
   In our case we went to Kibana:5601/app/home.
 
-Answer the following questions to fill in the blanks:_
+Answer the following questions to fill in the blanks:
 - Which file is the playbook? Where do you copy it?
 	- For Ansible create [Ansible Playbook](Ansible/elk-playbook.yml)
 	- For Filebeat create [Filebeat Playbook](Ansible/filebeat-playbook.yml)

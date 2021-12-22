@@ -138,17 +138,17 @@ The playbook implements the following tasks:
          name: docker
          enabled: yes
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-* [DVWA Deployment](Images/DVWA_Deployment.png)
-* [ELK Deployment](Images/ELK_Deployment.png)
+* [DVWA Deployment](./DVWA_Deployment.png)
+* [ELK Deployment](./ELK_Deployment.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- List the IP addresses of the machines you are monitoring_
+- List the IP addresses of the machines you are monitoring
 	- Web-1 10.0.0.7
 	- Web-2 10.0.0.8
 	
 We have installed the following Beats on these machines:
-- Specify which Beats you successfully installed_
+- Specify which Beats you successfully installed
 	- Filebeat & Metricbeat
 	
 These Beats allow us to collect the following information from each machine:
